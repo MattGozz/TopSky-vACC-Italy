@@ -1,0 +1,34 @@
+[DCL]
+DCL:LIRF:SID:<adep2> PDC <number> . . . . . CLD <hour><min> <year2><month2><day> <adep2> PDC <number> <callsign> <endheader>CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> <dfreq> <nfreq> <rmk>
+
+DCL:LIRA:SID:<adep2> PDC <number> . . . . . CLD <hour><min> <year2><month2><day> <adep2> PDC <number> <callsign> <endheader>CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> <dfreq> <nfreq> <rmk>
+
+DCL:LIRN:SID:<adep2> PDC <number> . . . . . CLD <hour><min> <year2><month2><day> <adep2> PDC <number> <callsign> <endheader>CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> <dfreq> <nfreq> <rmk>
+
+DCL:LICJ:SID:<adep2> PDC <number> . . . . . CLD <hour><min> <year2><month2><day> <adep2> PDC <number> <callsign> <endheader>CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> <dfreq> <nfreq> <rmk>
+
+DCL:LICC:SID:<adep2> PDC <number> . . . . . CLD <hour><min> <year2><month2><day> <adep2> PDC <number> <callsign> <endheader>CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> <dfreq> <nfreq> <rmk>
+
+DCL:LIEE:SID:<adep2> PDC <number> . . . . . CLD <hour><min> <year2><month2><day> <adep2> PDC <number> <callsign> <endheader>CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> <dfreq> <nfreq> <rmk>
+
+DCL:LIEO:SID:<adep2> PDC <number> . . . . . CLD <hour><min> <year2><month2><day> <adep2> PDC <number> <callsign> <endheader>CLRD TO <ades> OFF <drwy> VIA <sid> SQUAWK <assr> <dfreq> <nfreq> <rmk>
+
+
+[FREETEXT]
+FREETEXT:R:RADAR SERVICE TERMINATED
+FREETEXT:R:RADAR CONTACT LOST
+FREETEXT:R:CLOSING MONITOR UNICOM 122.800
+FREETEXT:R:CALL ME ON VOICE
+FREETEXT:R:CALL ME ON 124.200
+FREETEXT:R:CALL ME ON 128.800
+
+[STATIONS]
+LOGIN:EURW:EUROCONTROL CTL:EUW
+LOGIN:EURS:EUROCONTROL CTL:EUS
+LOGIN:EURM:EUROCONTROL CTL:EUM
+LOGIN:LIRR:ROMA CTL:RRN
+LOGIN:LIMM:MILANO CTL:MMN
+LOGIN:LIPP:PADOVA CTL:PPN
+LOGIN:LIBB:BRINDISI CTL:BBN
+LOGIN:LGGG:ATHENS CTL:GGG
+
